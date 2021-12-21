@@ -56,7 +56,7 @@ const Board = (() => {
         });
       }
     } else if (!checker(currentClass) && counter === 9) {
-      console.log("DRAW");
+      result.textContent = "DRAW !!!";
     }
   };
 
