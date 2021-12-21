@@ -83,5 +83,6 @@ const Board = (() => {
     });
     xTurn = true;
     counter = 0;
+    result.textContent = "";
   });
 })();
